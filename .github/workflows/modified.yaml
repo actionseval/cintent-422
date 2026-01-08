@@ -32,7 +32,7 @@ jobs:
     - uses: actions/checkout@v4
     
     # CINTENT >> INSERT_CINTENT
-    - uses: JavidDitty/setup-cintent@a606c80c34ec190c6a20dea33d6d58ddb6c4e0cc
+    - uses: JavidDitty/setup-cintent@de34273526014d7183574037a6e6c199c45b4d18
 
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
@@ -70,7 +70,7 @@ jobs:
     - uses: actions/checkout@v4
 
     # CINTENT >> INSERT_CINTENT
-    - uses: JavidDitty/setup-cintent@a606c80c34ec190c6a20dea33d6d58ddb6c4e0cc
+    - uses: JavidDitty/setup-cintent@de34273526014d7183574037a6e6c199c45b4d18
 
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
