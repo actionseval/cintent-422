@@ -37,7 +37,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
 
     # CINTENT >> INSERT_CINTENT
-    - uses: JavidDitty/setup-cintent@de34273526014d7183574037a6e6c199c45b4d18
+    - uses: JavidDitty/setup-cintent@3e5b2faf83a2ad32c22a1cd0f86f5f20ea53a5ab
 
     - name: Install dependencies
       run: |
@@ -75,7 +75,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
 
     # CINTENT >> INSERT_CINTENT
-    - uses: JavidDitty/setup-cintent@de34273526014d7183574037a6e6c199c45b4d18
+    - uses: JavidDitty/setup-cintent@3e5b2faf83a2ad32c22a1cd0f86f5f20ea53a5ab
 
     - name: Install dependencies
       run: |
